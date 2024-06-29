@@ -1,0 +1,125 @@
+
+.contact-us {
+    height: auto;
+    background-color: rgb(39, 35, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact-title {
+    position: relative;
+}
+
+.contact-title h1 {
+    padding: 40px 30px;
+    font-size: 40px;
+    font-family: 'inter', sans-serif;
+    background: linear-gradient(to right, #86C232, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-section {
+    display: flex;
+    gap: 150px;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact-left h1 {
+    font-size: 40px;
+    background: linear-gradient(to right, #86C232, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'outline', sans-serif;
+}
+
+.contact-left p {
+    max-width: 550px;
+    color: #d8d8d8;
+    font-size: 14px;
+    font-family: 'outline', sans-serif;
+    line-height: 17px;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #d8d8d8;
+    font-size: 22px;
+}
+
+.contact-detail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-detail img {
+    width: 20px;
+    filter: invert(1);
+}
+
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 23px;
+}
+
+.contact-right label {
+    color: #d8d8d8;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'outline', sans-serif;
+}
+
+.contact-right input {
+    border: none;
+    width: 575px;
+    height: 60px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: rgb(67, 60, 60);
+    color: #a0a0a0;
+    font-family: Outfit;
+    font-size: 20px;
+}
+
+.contact-right textarea {
+    width: 525px;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    background: rgb(67, 60, 60);
+    color: #a0a0a0;
+    font-size: 20px;
+}
+
+.contact-submit {
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    background: linear-gradient(267deg, #86C232 0.36%, #345402 102.06%);
+    color: rgb(255, 255, 255);
+    padding: 20px 60px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-weight : 500;
+    font-family: 'outline', sans-serif;
+}
+
+.contact-submit:hover {
+    transform: scale(1.05);
+}

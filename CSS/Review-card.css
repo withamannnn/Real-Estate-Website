@@ -1,0 +1,115 @@
+.hero {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(97, 94, 94);
+    justify-content: center;
+    align-items: center;
+}
+
+.hero p.head-1 {
+    font-size: 40px;
+    padding-bottom: 64px;
+    padding-top: 20px;
+    background: linear-gradient(to right, #86C232, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'inter', sans-serif;
+}
+
+.review-box {
+    width: 90%;
+    max-width: 1000px;
+    height: 300px;
+    box-shadow: -10px 10px 40px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top: -30px;
+    border: 2px solid white;
+    overflow: hidden;
+    margin-bottom: 30px;
+
+}
+
+.card {
+    height: 300px;
+    padding: 40px;
+    color: #ffffff;
+    line-height: 22px;
+    box-sizing: border-box;
+    background: rgb(20, 20, 20);
+    position: relative;
+    z-index: 1;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.profile img {
+    width: 75px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 2px solid #ffffff;
+}
+
+.profile h3 {
+    font-size: 26px;
+    color: #86C232;
+    margin-bottom: 8px;
+    font-family: 'inter' sans-serif;
+}
+
+#slide {
+    width: 100%;
+    padding-right: 60px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.sidebar {
+    width: 60px;
+    height: 100%;
+    padding: 15px 0;
+    position: absolute;
+    box-sizing: border-box;
+    background: #86C232;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar img {
+    width: 25px;
+    padding: 5px;
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.sidebar img:hover {
+    transform: scale(1.2);
+}
+
+.card::before {
+    content: '';
+    width: 110px;
+    height: 110px;
+    border-bottom-right-radius: 100%;
+    background: #86C232;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}

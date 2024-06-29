@@ -1,0 +1,58 @@
+.gallary {
+    height: auto;
+    background-color: rgb(97, 94, 94);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    width: 60%;
+    height: 500px;
+    box-shadow: 5px 5px 10px grey;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid white;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    position: absolute;
+}
+
+.nav-3 {
+    text-align: center;
+    margin-top: 25px;
+    padding: 30px;
+}
+
+.nav-3 button {
+    font-size: 20px;
+    margin: 10px;
+    padding: 15px 40px;
+    color: #ffffff;
+    border: 2px solid rgb(171, 158, 158);
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'outline', sans-serif;
+    transition: 0.5s;
+}
+
+.nav-3 button:hover {
+    transform: scale(1.10);
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.gallary h1 {
+    font-size: 40px;
+    background: linear-gradient(to right, #86C232, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'inter', sans-serif;
+    padding: 0;
+    padding : 30px 0;
+}
